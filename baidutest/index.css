@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+l{
+    float: left;
+}
+
+body{
+    width: 100%;
+}
+
+ul{
+    list-style:none
+}
+
+#u1{
+    font-size: 13px;
+    z-index: 2;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 19px 0 5px 0;
+    padding-right: 96px;
+}
+
+#u1 a.mnav.sp, #u1 a.mnav.sp:visited{
+    color: #f23f40;
+    position: relative;
+}
+
+#u1 a.mnav.sp.dot::before{
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #f23f40;
+    position: absolute;
+    top: 3px;
+    right: -5px;
+}
+
+#u1 a.mnav, #u1 a.mnav:visited{
+    float: left;
+    color: black;
+    line-height: 24px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+#u1 a.lb, #u1 a.lb:visited{
+    float: left;
+    color: black;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+#u1 a.pf, #u1 a.pf:visited{
+    float: left;
+    color: black;
+    line-height: 24px;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+#u1 a.bri, #u1 a.bri:visited{
+    color: white;
+    float: left;
+    position: absolute;
+    right: 20px;
+    top: 1px;
+    width: 60px;
+    height: 23px;
+    background: #38f;
+    text-align: center;
+    line-height: 24px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#u1 a.mnav:hover, #u1 a.lb:hover, #u1 a.pf:hover{
+    color: #00c;
+}
+
+#u1 a.pf > div.pfhover{
+}
+
+.pfhover{
+    width: 70px;
+    position: absolute;
+    top: 30px;
+    right: 73px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 4px #888888;
+
+}
+
+.pf_in{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 0 5px 0;
+    background-color: rgba(36,7,17,0.03);
+}
+
+.pf_in:hover{
+    background-color: #38f;
+    color: white;
+    border-radius: 5px;
+}
+
+.san{
+    width: 0;
+    height: 0;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent rgba(36, 7, 17, 0.06) transparent ;
+    position: absolute;
+    top: 17PX;
+    right: 102px;
+}
+
+#lg{
+    height: 60%;
+    min-height: 181px;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+#center{
+    height: 100%;
+    width: 57%;
+    margin: 0 auto;
+}
+
+#logo{
+    position: absolute;
+    bottom: -45px;
+    left: 36.5%;
+
+}
+.search_box{
+    width:641px;
+    height:37px;
+    margin-top:20px;
+}
+.search_input{
+    width:539px;
+    height:34px;
+    border:1px solid darkgray;
+    float:left;
+}
+.search_button{
+    width:100px;
+    height:37px;
+    font-size:15px;
+    background-color:#3385ff;
+    color:white;
+    font-family:"Microsoft YaHei";
+    border:0px;/*缩小文本框和按钮框的距离*/
+    float:left;
+}
+.search{
+    position: absolute;
+    bottom: -95px;
+    left: 20%;
+}
+
+.search_button:hover{
+    background-color:#2d78f4;
+    cursor: pointer;
+}
+#center_ewm{
+    height: 60%;
+    min-height: 181px;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+    position: absolute;
+    bottom: -305px;
+    left: 45%;
+}
+
+#bottom{
+    width: 100%;
+    height: 40px;
+    color: #999;
+    background-color: #fafafa;
+    line-height: 40px;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bottom a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #999;
+}
+
+#bottom span{
+    margin: 5px;
+    color: #999;
+}
+
+.bottom_left{
+    padding-top: -1px;
+}
